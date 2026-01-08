@@ -1,1216 +1,930 @@
 {
-  "versions": [
-    {
-      "version": "2002",
-      "versionNumber": "7.0",
-      "productName": "Visual Studio .NET 2002",
-      "releaseDate": "2002-02",
-      "editions": [
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio .NET Pro",
-          "description": "Professional edition of Visual Studio .NET 2002",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs.net_pro_full.iso",
-              "url": "https://archive.org/download/visualstudio-collection/dotnet2002/en_vs.net_pro_full.iso"
+    "metadata": {
+        "lastUpdated": "2026-01-08",
+        "sources": {
+            "microsoft": {
+                "name": "Microsoft Direct",
+                "credibility": "highest"
+            },
+            "microsoft_fwlink": {
+                "name": "Microsoft FWLink",
+                "credibility": "highest"
+            },
+            "microsoft_golink": {
+                "name": "Microsoft Go Link",
+                "credibility": "highest"
+            },
+            "microsoft_akams": {
+                "name": "Microsoft Aka.ms",
+                "credibility": "highest"
+            },
+            "archive": {
+                "name": "Archive.org",
+                "credibility": "high"
+            },
+            "wayback": {
+                "name": "Wayback Machine",
+                "credibility": "high"
             }
-          ]
-        },
-        {
-          "edition": "Enterprise Developer",
-          "displayName": "VS .NET Enterprise Developer",
-          "description": "Enterprise Developer edition of Visual Studio .NET 2002",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs.net_ent_dev_full.iso",
-              "url": "https://archive.org/download/visualstudio-collection/dotnet2002/en_vs.net_ent_dev_full.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Enterprise Architect",
-          "displayName": "VS .NET Enterprise Architect",
-          "description": "Enterprise Architect edition of Visual Studio .NET 2002",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs.net_ent_arch_full.iso",
-              "url": "https://archive.org/download/visualstudio-collection/dotnet2002/en_vs.net_ent_arch_full.iso"
-            }
-          ]
         }
-      ]
     },
-    {
-      "version": "2003",
-      "versionNumber": "7.1",
-      "productName": "Visual Studio .NET 2003",
-      "releaseDate": "2003-04",
-      "editions": [
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio .NET 2003 Pro",
-          "description": "Professional edition of Visual Studio .NET 2003",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs.net_2003_pro_full.iso",
-              "url": "https://archive.org/download/visualstudio-collection/dotnet2003/en_vs.net_2003_pro_full.iso"
-            }
-          ]
+    "versions": {
+        "2002": {
+            "number": "7.0",
+            "name": "Visual Studio .NET 2002",
+            "released": "2002-02"
         },
-        {
-          "edition": "Enterprise Developer",
-          "displayName": "VS .NET 2003 Enterprise",
-          "description": "Enterprise edition of Visual Studio .NET 2003",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs.net_2003_ent_full.iso",
-              "url": "https://archive.org/download/visualstudio-collection/dotnet2003/en_vs.net_2003_ent_full.iso"
-            }
-          ]
+        "2003": {
+            "number": "7.1",
+            "name": "Visual Studio .NET 2003",
+            "released": "2003-04"
         },
-        {
-          "edition": "Enterprise Architect",
-          "displayName": "VS .NET 2003 Ent Architect",
-          "description": "Enterprise Architect edition of Visual Studio .NET 2003",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs.net_2003_enarch_full.iso",
-              "url": "https://archive.org/download/visualstudio-collection/dotnet2003/en_vs.net_2003_enarch_full.iso"
-            }
-          ]
+        "2005": {
+            "number": "8.0",
+            "name": "Visual Studio 2005",
+            "released": "2005-11"
+        },
+        "2008": {
+            "number": "9.0",
+            "name": "Visual Studio 2008",
+            "released": "2007-11"
+        },
+        "2010": {
+            "number": "10.0",
+            "name": "Visual Studio 2010",
+            "released": "2010-04"
+        },
+        "2012": {
+            "number": "11.0",
+            "name": "Visual Studio 2012",
+            "released": "2012-09"
+        },
+        "2013": {
+            "number": "12.0",
+            "name": "Visual Studio 2013",
+            "released": "2013-10"
+        },
+        "2015": {
+            "number": "14.0",
+            "name": "Visual Studio 2015",
+            "released": "2015-07"
+        },
+        "2017": {
+            "number": "15.9",
+            "name": "Visual Studio 2017",
+            "released": "2017-03"
+        },
+        "2019": {
+            "number": "16.11",
+            "name": "Visual Studio 2019",
+            "released": "2019-04"
+        },
+        "2022": {
+            "number": "17.x",
+            "name": "Visual Studio 2022",
+            "released": "2021-11"
         }
-      ]
     },
-    {
-      "version": "2005",
-      "versionNumber": "8.0",
-      "productName": "Visual Studio 2005",
-      "releaseDate": "2005-11",
-      "editions": [
+    "downloads": [
         {
-          "edition": "Express",
-          "component": "Visual C++",
-          "displayName": "Visual C++ 2005 Express",
-          "description": "Express edition for C++ development",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VC.iso",
-              "url": "https://download.microsoft.com/download/A/9/1/A91D6B2B-A798-47DF-9C7E-A97854B7DD18/VC.iso"
-            },
-            {
-              "source": "Microsoft FWLink",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VC.iso",
-              "url": "http://go.microsoft.com/fwlink/?linkid=57034"
-            }
-          ]
+            "version": "2002",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/dotnet2002/en_vs.net_pro_full.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs.net_pro_full.iso"
         },
         {
-          "edition": "Express",
-          "component": "Visual C#",
-          "displayName": "Visual C# 2005 Express",
-          "description": "Express edition for C# development",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VCS.iso",
-              "url": "https://download.microsoft.com/download/C/6/F/C6F4733B-67C7-4C15-9F21-61F7A3167505/VCS.iso"
-            },
-            {
-              "source": "Microsoft FWLink",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VCS.iso",
-              "url": "http://go.microsoft.com/fwlink/?linkid=57035"
-            }
-          ]
+            "version": "2002",
+            "edition": "Enterprise Developer",
+            "url": "https://archive.org/download/visualstudio-collection/dotnet2002/en_vs.net_ent_dev_full.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs.net_ent_dev_full.iso"
         },
         {
-          "edition": "Express",
-          "component": "Visual Basic",
-          "displayName": "Visual Basic 2005 Express",
-          "description": "Express edition for Visual Basic development",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VB.iso",
-              "url": "https://download.microsoft.com/download/D/9/C/D9C35F20-A749-4E25-A306-DE20B93AB8C0/VB.iso"
-            },
-            {
-              "source": "Microsoft FWLink",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VB.iso",
-              "url": "http://go.microsoft.com/fwlink/?linkid=57033"
-            }
-          ]
+            "version": "2002",
+            "edition": "Enterprise Architect",
+            "url": "https://archive.org/download/visualstudio-collection/dotnet2002/en_vs.net_ent_arch_full.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs.net_ent_arch_full.iso"
         },
         {
-          "edition": "Express",
-          "component": "Visual Web Developer",
-          "displayName": "Visual Web Developer 2005",
-          "description": "Express edition for web development",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VWD.iso",
-              "url": "https://download.microsoft.com/download/B/D/0/BD0A8523-75FE-40A9-990B-C9D63F50AE63/VWD.iso"
-            },
-            {
-              "source": "Microsoft FWLink",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VWD.iso",
-              "url": "http://go.microsoft.com/fwlink/?linkid=57037"
-            }
-          ]
+            "version": "2003",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/dotnet2003/en_vs.net_2003_pro_full.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs.net_2003_pro_full.iso"
         },
         {
-          "edition": "Express",
-          "component": "Visual J#",
-          "displayName": "Visual J# 2005 Express",
-          "description": "Express edition for J# development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "VJS.iso",
-              "url": "https://archive.org/download/vjs_20200416/VJS.iso"
-            }
-          ]
+            "version": "2003",
+            "edition": "Enterprise Developer",
+            "url": "https://archive.org/download/visualstudio-collection/dotnet2003/en_vs.net_2003_ent_full.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs.net_2003_ent_full.iso"
         },
         {
-          "edition": "Express",
-          "component": "All-in-One",
-          "displayName": "All-in-One ISO (EN)",
-          "description": "All Express editions in one ISO",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "vs-express-2005",
-              "url": "https://archive.org/details/vs-express-2005"
-            }
-          ]
+            "version": "2003",
+            "edition": "Enterprise Architect",
+            "url": "https://archive.org/download/visualstudio-collection/dotnet2003/en_vs.net_2003_enarch_full.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs.net_2003_enarch_full.iso"
         },
         {
-          "edition": "Standard",
-          "displayName": "Visual Studio 2005 Standard & Pro",
-          "description": "Standard and Professional editions (multi-disc)",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "en_vs_2005_cd",
-              "url": "https://archive.org/details/en_vs_2005_cd",
-              "notes": "Includes Standard & Professional"
-            }
-          ]
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual C++",
+            "url": "https://download.microsoft.com/download/A/9/1/A91D6B2B-A798-47DF-9C7E-A97854B7DD18/VC.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VC.iso"
         },
         {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2005 Pro",
-          "description": "Professional edition with full development tools",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_vs_2005_pro_dvd.iso",
-              "url": "https://archive.org/download/en_vs_2005_pro_dvd_202303/en_vs_2005_pro_dvd.iso"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "Disc 1",
-              "url": "https://archive.org/details/microsoft-visual-studio-2005-professional-edition-disc-1",
-              "notes": "Multi-disc installation - Disc 1"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "Disc 2 (MSDN Library)",
-              "url": "https://archive.org/details/microsoft-visual-studio-2005-msdn-library-disc-2_202103",
-              "notes": "Multi-disc installation - Disc 2"
-            }
-          ]
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual C++",
+            "url": "http://go.microsoft.com/fwlink/?linkid=57034",
+            "source": "microsoft_fwlink",
+            "type": "iso",
+            "filename": "VC.iso"
         },
         {
-          "edition": "Team Suite",
-          "displayName": "Visual Studio 2005 Team Suite",
-          "description": "Team Suite edition - MSDN subscription required",
-          "downloadLinks": []
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual C#",
+            "url": "https://download.microsoft.com/download/C/6/F/C6F4733B-67C7-4C15-9F21-61F7A3167505/VCS.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VCS.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual C#",
+            "url": "http://go.microsoft.com/fwlink/?linkid=57035",
+            "source": "microsoft_fwlink",
+            "type": "iso",
+            "filename": "VCS.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual Basic",
+            "url": "https://download.microsoft.com/download/D/9/C/D9C35F20-A749-4E25-A306-DE20B93AB8C0/VB.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VB.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual Basic",
+            "url": "http://go.microsoft.com/fwlink/?linkid=57033",
+            "source": "microsoft_fwlink",
+            "type": "iso",
+            "filename": "VB.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual Web Developer",
+            "url": "https://download.microsoft.com/download/B/D/0/BD0A8523-75FE-40A9-990B-C9D63F50AE63/VWD.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VWD.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual Web Developer",
+            "url": "http://go.microsoft.com/fwlink/?linkid=57037",
+            "source": "microsoft_fwlink",
+            "type": "iso",
+            "filename": "VWD.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "Visual J#",
+            "url": "https://archive.org/download/vjs_20200416/VJS.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "VJS.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Express",
+            "component": "All-in-One",
+            "url": "https://archive.org/details/vs-express-2005",
+            "source": "archive",
+            "type": "collection",
+            "filename": "vs-express-2005"
+        },
+        {
+            "version": "2005",
+            "edition": "Standard",
+            "url": "https://archive.org/details/en_vs_2005_cd",
+            "source": "archive",
+            "type": "collection",
+            "filename": "en_vs_2005_cd",
+            "notes": "Includes Standard & Professional"
+        },
+        {
+            "version": "2005",
+            "edition": "Professional",
+            "url": "https://archive.org/download/en_vs_2005_pro_dvd_202303/en_vs_2005_pro_dvd.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_vs_2005_pro_dvd.iso"
+        },
+        {
+            "version": "2005",
+            "edition": "Professional",
+            "url": "https://archive.org/details/microsoft-visual-studio-2005-professional-edition-disc-1",
+            "source": "archive",
+            "type": "collection",
+            "filename": "Disc 1",
+            "notes": "Multi-disc installation - Disc 1"
+        },
+        {
+            "version": "2005",
+            "edition": "Professional",
+            "url": "https://archive.org/details/microsoft-visual-studio-2005-msdn-library-disc-2_202103",
+            "source": "archive",
+            "type": "collection",
+            "filename": "Disc 2 (MSDN Library)",
+            "notes": "Multi-disc installation - Disc 2"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "Visual C++",
+            "url": "https://archive.org/details/en_visual_studio_2008_express_x86_dvd_x13-97868",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2008_express_x86_dvd_x13-97868.iso"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "Visual C#",
+            "url": "https://archive.org/details/Visual_Studio_2008_Express_Editon",
+            "source": "archive",
+            "type": "collection",
+            "filename": "Visual_Studio_2008_Express_Editon"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "Visual Basic",
+            "url": "https://archive.org/details/MS_VisualStudioExpress-2008",
+            "source": "archive",
+            "type": "collection",
+            "filename": "MS_VisualStudioExpress-2008"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "Web Developer",
+            "url": "https://archive.org/details/vs-express-editions-2008",
+            "source": "archive",
+            "type": "collection",
+            "filename": "vs-express-editions-2008"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "All-in-One SP1",
+            "released": "2008-08",
+            "url": "https://archive.org/download/vs-2008-express-w-sp-1/VS2008-Express-w-SP1.ISO",
+            "source": "archive",
+            "type": "iso",
+            "filename": "VS2008-Express-w-SP1.ISO"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "All-in-One SP1",
+            "released": "2008-08",
+            "url": "http://download.microsoft.com/download/a/3/7/a371b6d1-fc5e-44f7-914c-cb452b4043a9/VS2008SP1ENUX1512962.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2008SP1ENUX1512962.iso"
+        },
+        {
+            "version": "2008",
+            "edition": "Express",
+            "component": "All-in-One SP1",
+            "released": "2008-08",
+            "url": "https://archive.org/download/visualstudio-collection/2008/en_visual_studio_2008_express_with_service_pack_1_x86_dvd_x15-04728.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2008_express_with_service_pack_1_x86_dvd_x15-04728.iso"
+        },
+        {
+            "version": "2008",
+            "edition": "Standard",
+            "url": "https://archive.org/download/visualstudio-collection/2008/en_visual_studio_2008_standard_x86_dvd_x14-31724.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2008_standard_x86_dvd_x14-31724.iso"
+        },
+        {
+            "version": "2008",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/2008/en_visual_studio_2008_professional_x86_dvd_x14-26326.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2008_professional_x86_dvd_x14-26326.iso"
+        },
+        {
+            "version": "2008",
+            "edition": "Professional",
+            "url": "http://download.microsoft.com/download/8/1/d/81d3f35e-fa03-485b-953b-ff952e402520/VS2008ProEdition90dayTrialENUX1435622.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2008ProEdition90dayTrialENUX1435622.iso",
+            "notes": "90-day trial version"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Visual C++",
+            "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vc_express_x86_dvd_75fbb2e1.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_vc_express_x86_dvd_75fbb2e1.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Visual C#",
+            "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vcs_express_x86_dvd_e8a219ee.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_vcs_express_x86_dvd_e8a219ee.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Visual Basic",
+            "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vb_express_x86_dvd_268acdef.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_vb_express_x86_dvd_268acdef.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Web Developer",
+            "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vwd_express_x86_dvd_7c8ddcd7.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_vwd_express_x86_dvd_7c8ddcd7.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Full DVD",
+            "url": "https://web.archive.org/web/20140424044344if_/http://download.microsoft.com/download/1/E/5/1E5F1C0A-0D5B-426A-A603-1798B951DDAE/VS2010Express1.iso",
+            "source": "wayback",
+            "type": "iso",
+            "filename": "VS2010Express1.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Full DVD",
+            "url": "https://archive.org/details/visual_studio_2010_express",
+            "source": "archive",
+            "type": "collection",
+            "filename": "Full Collection"
+        },
+        {
+            "version": "2010",
+            "edition": "Express",
+            "component": "Full DVD",
+            "url": "https://archive.org/download/visualstudio-collection/2010/en_visual_studio_2010_express_x86_dvd_510419.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_express_x86_dvd_510419.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Service Pack",
+            "released": "2011-03",
+            "url": "https://web.archive.org/web/20160401071422if_/http://download.microsoft.com/download/E/B/A/EBA0A152-F426-47E6-9E3F-EFB686E3CA20/VS2010SP1dvd1.iso",
+            "source": "wayback",
+            "type": "iso",
+            "filename": "VS2010SP1dvd1.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Service Pack",
+            "released": "2011-03",
+            "url": "http://download.microsoft.com/download/E/B/A/EBA0A152-F426-47E6-9E3F-EFB686E3CA20/VS2010SP1dvd1.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2010SP1dvd1.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/2010/en_visual_studio_2010_professional_x86_dvd_509727.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_professional_x86_dvd_509727.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Ultimate",
+            "url": "https://archive.org/download/visualstudio-collection/2010/en_visual_studio_2010_ultimate_x86_dvd_509116.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_2010_ultimate_x86_dvd_509116.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Ultimate",
+            "url": "https://archive.org/download/MicrosoftVisualStudio2010Ultimate_201801/Microsoft%20Visual%20Studio%202010%20Ultimate.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "Microsoft Visual Studio 2010 Ultimate.iso"
+        },
+        {
+            "version": "2010",
+            "edition": "Ultimate",
+            "url": "https://archive.org/details/en_visual_studio_2010_ultimate_x86_dvd_509116_202310",
+            "source": "archive",
+            "type": "collection",
+            "filename": "All editions ISO"
+        },
+        {
+            "version": "2012",
+            "edition": "Express",
+            "url": "http://download.microsoft.com/download/6/e/c/6ec5b3cf-cc0d-448a-9846-8af059de7f72/vs2012_winexp_enu.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2012_winexp_enu.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Express",
+            "url": "https://download.microsoft.com/download/1/F/5/1F519CC5-0B90-4EA3-8159-33BFB97EF4D9/VS2012_WDX_ENU.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2012_WDX_ENU.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Premium",
+            "url": "http://download.microsoft.com/download/1/3/1/131D8A8C-95D8-41D4-892A-1DF6E3C5DF7D/VS2012_PREM_enu.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2012_PREM_enu.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Premium",
+            "url": "https://archive.org/download/visualstudio-collection/2012/en_visual_studio_premium_2012_x86_dvd_2262337.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_premium_2012_x86_dvd_2262337.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Professional",
+            "url": "http://download.microsoft.com/download/D/E/8/DE8E42D8-7598-4F4E-93D4-BB011094E2F9/VS2012_PRO_enu.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2012_PRO_enu.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/2012/en_visual_studio_professional_2012_x86_dvd_2262334.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_professional_2012_x86_dvd_2262334.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Test Professional",
+            "url": "http://download.microsoft.com/download/7/9/7/7971903e-34e0-460c-9b38-84e8c1d0f3c3/vs2012_testpro_enu.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2012_testpro_enu.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Team Foundation Server",
+            "url": "http://download.microsoft.com/download/a/c/f/acfefce0-9bc1-4f8c-80b8-06a0929ed926/vs2012_tfs_enu.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2012_tfs_enu.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Ultimate",
+            "url": "http://download.microsoft.com/download/d/b/0/db03922c-ff91-4845-b7f2-fc68595ab730/vs2012_ult_enu.iso?WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2012_ult_enu.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Ultimate",
+            "url": "https://archive.org/download/visualstudio-collection/2012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_ultimate_2012_x86_dvd_2262106.iso"
+        },
+        {
+            "version": "2012",
+            "edition": "Update",
+            "released": "2015-08",
+            "url": "https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2012.5.iso"
+        },
+        {
+            "version": "2013",
+            "edition": "Community",
+            "url": "https://download.microsoft.com/download/7/1/B/71BA74D8-B9A0-4E6C-9159-A8335D54437E/vs2013.4_ce_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2013.4_ce_enu.iso"
+        },
+        {
+            "version": "2013",
+            "edition": "Community",
+            "url": "https://go.microsoft.com/?linkid=9863609&WT.mc_id=DT-MVP-5003202",
+            "source": "microsoft_golink",
+            "type": "iso",
+            "filename": "vs2013.4_ce_enu.iso"
+        },
+        {
+            "version": "2013",
+            "edition": "Express",
+            "url": "https://download.microsoft.com/download/2/5/5/255DCCB6-F364-4ED8-9758-EF0734CA86B8/vs2013.3_dskexp_ENU.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2013.3_dskexp_ENU.iso"
+        },
+        {
+            "version": "2013",
+            "edition": "Test Professional",
+            "url": "http://download.microsoft.com/download/4/0/6/406E397F-EDBE-4437-B64F-40DF7A92A26E/VS2013_RTM_TESTPRO_ENU.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2013_RTM_TESTPRO_ENU.iso"
+        },
+        {
+            "version": "2013",
+            "edition": "Professional",
+            "url": "https://download.microsoft.com/download/F/2/E/F2EFF589-F7D7-478E-B3AB-15F412DA7DEB/vs2013.5_pro_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2013.5_pro_enu.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Professional",
+            "url": "https://go.microsoft.com/fwlink/?LinkId=532507&type=ISO&clcid=0x409",
+            "source": "microsoft_golink",
+            "type": "iso",
+            "filename": "vs2013.5_pro_enu.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/2013/en_visual_studio_professional_2013_with_update_5_x86_dvd_6815752.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_professional_2013_with_update_5_x86_dvd_6815752.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Professional",
+            "url": "https://download.microsoft.com/download/A/F/1/AF128362-A6A8-4DB3-A39A-C348086472CC/VS2013_RTM_PRO_ENU.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "VS2013_RTM_PRO_ENU.iso",
+            "notes": "RTM"
+        },
+        {
+            "version": "2013",
+            "edition": "Professional",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=320673",
+            "source": "microsoft_golink",
+            "type": "iso",
+            "filename": "VS2013_RTM_PRO_ENU.iso",
+            "notes": "RTM"
+        },
+        {
+            "version": "2013",
+            "edition": "Premium",
+            "url": "https://download.microsoft.com/download/6/5/F/65F510B7-D597-4E80-8EFE-86DDCFCC7C43/vs2013.5_prem_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2013.5_prem_enu.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Premium",
+            "url": "https://go.microsoft.com/fwlink/?LinkId=532510&type=ISO&clcid=0x409",
+            "source": "microsoft_golink",
+            "type": "iso",
+            "filename": "vs2013.5_prem_enu.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Premium",
+            "url": "https://archive.org/download/visualstudio-collection/2013/en_visual_studio_premium_2013_with_update_5_x86_dvd_6815742.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_premium_2013_with_update_5_x86_dvd_6815742.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Ultimate",
+            "url": "https://download.microsoft.com/download/E/2/A/E2ADF1BE-8FA0-4436-A260-8780444C8355/vs2013.5_ult_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2013.5_ult_enu.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Ultimate",
+            "url": "https://go.microsoft.com/fwlink/?LinkId=532504&type=ISO&clcid=0x409",
+            "source": "microsoft_golink",
+            "type": "iso",
+            "filename": "vs2013.5_ult_enu.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Ultimate",
+            "url": "https://archive.org/download/visualstudio-collection/2013/en_visual_studio_ultimate_2013_with_update_5_x86_dvd_6815896.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_ultimate_2013_with_update_5_x86_dvd_6815896.iso",
+            "notes": "Update 5"
+        },
+        {
+            "version": "2013",
+            "edition": "Update",
+            "released": "2015-07",
+            "url": "http://download.microsoft.com/download/A/F/9/AF95E6F8-2E6E-49D0-A48A-8E918D7FD768/vs2013.5.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2013.5.iso"
+        },
+        {
+            "version": "2015",
+            "edition": "Community",
+            "url": "https://download.microsoft.com/download/b/e/d/bedddfc4-55f4-4748-90a8-ffe38a40e89f/vs2015.3.com_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.3.com_enu.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Professional",
+            "url": "https://download.microsoft.com/download/e/b/c/ebc2c43f-3821-4a0b-82b1-d05368af1604/vs2015.3.pro_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.3.pro_enu.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Professional",
+            "url": "https://archive.org/download/visualstudio-collection/2015/en_visual_studio_professional_2015_with_update_3_x86_x64_dvd_8923272.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_professional_2015_with_update_3_x86_x64_dvd_8923272.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Professional",
+            "url": "http://download.microsoft.com/download/3/6/A/36A72A3F-711B-4738-B4C6-C668A508D2EE/vs2015.1.pro_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.1.pro_enu.iso",
+            "notes": "Update 1"
+        },
+        {
+            "version": "2015",
+            "edition": "Enterprise",
+            "url": "https://download.microsoft.com/download/8/4/3/843ec655-1b67-46c3-a7a4-10a1159cfa84/vs2015.3.ent_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.3.ent_enu.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Enterprise",
+            "url": "https://archive.org/download/visualstudio-collection/2015/en_visual_studio_enterprise_2015_with_update_3_x86_x64_dvd_8923288.iso",
+            "source": "archive",
+            "type": "iso",
+            "filename": "en_visual_studio_enterprise_2015_with_update_3_x86_x64_dvd_8923288.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Enterprise",
+            "url": "http://download.microsoft.com/download/6/C/9/6C95B548-64A9-4637-A7F2-EB2A750C7504/vs2015.1.ent_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.1.ent_enu.iso",
+            "notes": "Update 1"
+        },
+        {
+            "version": "2015",
+            "edition": "Test Professional",
+            "url": "https://download.microsoft.com/download/c/2/6/c26892d8-6a5d-4871-9d46-629f4d430146/vs2015.3.vsu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.3.vsu.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Test Professional",
+            "url": "https://go.microsoft.com/fwlink/?LinkId=708984",
+            "source": "microsoft_golink",
+            "type": "iso",
+            "filename": "vs2015.3.vsu.iso",
+            "notes": "Update 3"
+        },
+        {
+            "version": "2015",
+            "edition": "Test Professional",
+            "url": "http://download.microsoft.com/download/8/5/6/856E021B-39D6-4593-B7BB-2F8D1178EBCB/vs2015.testpro_enu.iso",
+            "source": "microsoft",
+            "type": "iso",
+            "filename": "vs2015.testpro_enu.iso",
+            "notes": "Update 1"
+        },
+        {
+            "version": "2017",
+            "edition": "Community",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/90376509-0179-440a-9cb4-6f2e89f36eec/6e4b977a8e8a268cdfb592b688c3cfaf5e180d8bd638b70540de7e14d18622be/vs_Community.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Community.exe"
+        },
+        {
+            "version": "2017",
+            "edition": "Community",
+            "url": "https://aka.ms/vs/15/release/vs_community.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_community.exe"
+        },
+        {
+            "version": "2017",
+            "edition": "Professional",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/90376509-0179-440a-9cb4-6f2e89f36eec/ef1de6c2573e97b1db6e7512d975d6a161c6deab0374b402eb08c776c708730c/vs_Professional.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Professional.exe"
+        },
+        {
+            "version": "2017",
+            "edition": "Professional",
+            "url": "https://aka.ms/vs/15/release/vs_professional.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_professional.exe"
+        },
+        {
+            "version": "2017",
+            "edition": "Enterprise",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/90376509-0179-440a-9cb4-6f2e89f36eec/fd996042328ee4d363c28ac4eda32c1c478f503e6fe21c120001ddf34afb0b07/vs_Enterprise.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Enterprise.exe"
+        },
+        {
+            "version": "2017",
+            "edition": "Enterprise",
+            "url": "https://aka.ms/vs/15/release/vs_enterprise.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_enterprise.exe"
+        },
+        {
+            "version": "2019",
+            "edition": "Community",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/12569159-fcaa-4029-a83e-b7b900c5f9d6/9e0c2ffd45cb53f2596c6d55b66b9157a67f1b05244004c19410c5551ef1e318/vs_Community.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Community.exe"
+        },
+        {
+            "version": "2019",
+            "edition": "Community",
+            "url": "https://aka.ms/vs/16/release/vs_community.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_community.exe"
+        },
+        {
+            "version": "2019",
+            "edition": "Professional",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/12569159-fcaa-4029-a83e-b7b900c5f9d6/3dc8194da5455450e5284c08f632cbfb6286bfb70a23dff16c1f739e0b578aae/vs_Professional.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Professional.exe"
+        },
+        {
+            "version": "2019",
+            "edition": "Professional",
+            "url": "https://aka.ms/vs/16/release/vs_professional.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_professional.exe"
+        },
+        {
+            "version": "2019",
+            "edition": "Enterprise",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/12569159-fcaa-4029-a83e-b7b900c5f9d6/c9c2a125256d1f3bc421f52c39ec5c39b5a30579c5825ffea0842fae356d6caa/vs_Enterprise.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Enterprise.exe"
+        },
+        {
+            "version": "2019",
+            "edition": "Enterprise",
+            "url": "https://aka.ms/vs/16/release/vs_enterprise.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_enterprise.exe"
+        },
+        {
+            "version": "2022",
+            "edition": "Community",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/1d268fee-04e5-4da9-be1e-b8c9d1896c17/546de3dad8f9acf6882dc57d4d90c9d8a2a25d480eef69eb8a29fcb361ba003a/vs_Community.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Community.exe"
+        },
+        {
+            "version": "2022",
+            "edition": "Community",
+            "url": "https://aka.ms/vs/17/release/vs_community.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_community.exe"
+        },
+        {
+            "version": "2022",
+            "edition": "Professional",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/a80deb24-6a28-4d30-b99f-13b6e89c9727/491bf1be32ee89d9cc9a379992367e5215b483f56b68865058fefde4f7818cb4/vs_Professional.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Professional.exe"
+        },
+        {
+            "version": "2022",
+            "edition": "Professional",
+            "url": "https://aka.ms/vs/17/release/vs_professional.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_professional.exe"
+        },
+        {
+            "version": "2022",
+            "edition": "Enterprise",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/a80deb24-6a28-4d30-b99f-13b6e89c9727/99af51b973aaf5c212a177d91f7fab7eb6f0b41fded2a820f1b375b3eee5e214/vs_Enterprise.exe",
+            "source": "microsoft",
+            "type": "exe",
+            "filename": "vs_Enterprise.exe"
+        },
+        {
+            "version": "2022",
+            "edition": "Enterprise",
+            "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
+            "source": "microsoft_akams",
+            "type": "exe",
+            "filename": "vs_enterprise.exe"
         }
-      ]
-    },
-    {
-      "version": "2008",
-      "versionNumber": "9.0",
-      "productName": "Visual Studio 2008",
-      "releaseDate": "2007-11",
-      "editions": [
-        {
-          "edition": "Express",
-          "component": "Visual C++",
-          "displayName": "Visual C++ 2008 Express",
-          "description": "Express edition for C++ development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2008_express_x86_dvd_x13-97868.iso",
-              "url": "https://archive.org/details/en_visual_studio_2008_express_x86_dvd_x13-97868"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Visual C#",
-          "displayName": "Visual C# 2008 Express",
-          "description": "Express edition for C# development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "Visual_Studio_2008_Express_Editon",
-              "url": "https://archive.org/details/Visual_Studio_2008_Express_Editon"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Visual Basic",
-          "displayName": "Visual Basic 2008 Express",
-          "description": "Express edition for Visual Basic development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "MS_VisualStudioExpress-2008",
-              "url": "https://archive.org/details/MS_VisualStudioExpress-2008"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Web Developer",
-          "displayName": "Web Developer 2008",
-          "description": "Express edition for web development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "vs-express-editions-2008",
-              "url": "https://archive.org/details/vs-express-editions-2008"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "All-in-One SP1",
-          "displayName": "All-in-One ISO SP1",
-          "description": "All Express editions with Service Pack 1",
-          "releaseDate": "2008-08",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "VS2008-Express-w-SP1.ISO",
-              "url": "https://archive.org/download/vs-2008-express-w-sp-1/VS2008-Express-w-SP1.ISO"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2008SP1ENUX1512962.iso",
-              "url": "http://download.microsoft.com/download/a/3/7/a371b6d1-fc5e-44f7-914c-cb452b4043a9/VS2008SP1ENUX1512962.iso?WT.mc_id=DT-MVP-5003202"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2008_express_with_service_pack_1_x86_dvd_x15-04728.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2008/en_visual_studio_2008_express_with_service_pack_1_x86_dvd_x15-04728.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Standard",
-          "displayName": "Visual Studio 2008 Standard",
-          "description": "Standard edition of Visual Studio 2008",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2008_standard_x86_dvd_x14-31724.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2008/en_visual_studio_2008_standard_x86_dvd_x14-31724.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2008 Pro",
-          "description": "Professional edition with full development tools",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2008_professional_x86_dvd_x14-26326.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2008/en_visual_studio_2008_professional_x86_dvd_x14-26326.iso"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "medium",
-              "type": "iso",
-              "filename": "VS2008ProEdition90dayTrialENUX1435622.iso",
-              "url": "http://download.microsoft.com/download/8/1/d/81d3f35e-fa03-485b-953b-ff952e402520/VS2008ProEdition90dayTrialENUX1435622.iso?WT.mc_id=DT-MVP-5003202",
-              "notes": "90-day trial version"
-            }
-          ]
-        },
-        {
-          "edition": "Team Suite",
-          "displayName": "Visual Studio 2008 Team Suite",
-          "description": "Team Suite edition - MSDN subscription required",
-          "downloadLinks": []
-        }
-      ]
-    },
-    {
-      "version": "2010",
-      "versionNumber": "10.0",
-      "productName": "Visual Studio 2010",
-      "releaseDate": "2010-04",
-      "editions": [
-        {
-          "edition": "Express",
-          "component": "Visual C++",
-          "displayName": "Visual C++ 2010 Express",
-          "description": "Express edition for C++ development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_vc_express_x86_dvd_75fbb2e1.iso",
-              "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vc_express_x86_dvd_75fbb2e1.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Visual C#",
-          "displayName": "Visual C# 2010 Express",
-          "description": "Express edition for C# development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_vcs_express_x86_dvd_e8a219ee.iso",
-              "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vcs_express_x86_dvd_e8a219ee.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Visual Basic",
-          "displayName": "Visual Basic 2010 Express",
-          "description": "Express edition for Visual Basic development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_vb_express_x86_dvd_268acdef.iso",
-              "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vb_express_x86_dvd_268acdef.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Web Developer",
-          "displayName": "Web Developer 2010",
-          "description": "Express edition for web development",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_vwd_express_x86_dvd_7c8ddcd7.iso",
-              "url": "https://archive.org/download/visual_studio_2010_express/en_visual_studio_2010_vwd_express_x86_dvd_7c8ddcd7.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "component": "Full DVD",
-          "displayName": "Full DVD ISO",
-          "description": "Complete Express editions DVD",
-          "downloadLinks": [
-            {
-              "source": "Wayback Machine",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "VS2010Express1.iso",
-              "url": "https://web.archive.org/web/20140424044344if_/http://download.microsoft.com/download/1/E/5/1E5F1C0A-0D5B-426A-A603-1798B951DDAE/VS2010Express1.iso"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "Full Collection",
-              "url": "https://archive.org/details/visual_studio_2010_express"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_express_x86_dvd_510419.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2010/en_visual_studio_2010_express_x86_dvd_510419.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Service Pack",
-          "displayName": "Service Pack 1",
-          "description": "Service Pack 1 for Visual Studio 2010",
-          "releaseDate": "2011-03",
-          "downloadLinks": [
-            {
-              "source": "Wayback Machine",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "VS2010SP1dvd1.iso",
-              "url": "https://web.archive.org/web/20160401071422if_/http://download.microsoft.com/download/E/B/A/EBA0A152-F426-47E6-9E3F-EFB686E3CA20/VS2010SP1dvd1.iso"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2010SP1dvd1.iso",
-              "url": "http://download.microsoft.com/download/E/B/A/EBA0A152-F426-47E6-9E3F-EFB686E3CA20/VS2010SP1dvd1.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2010 Pro",
-          "description": "Professional edition with full development tools",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_professional_x86_dvd_509727.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2010/en_visual_studio_2010_professional_x86_dvd_509727.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Ultimate",
-          "displayName": "Visual Studio 2010 Ultimate",
-          "description": "Ultimate edition with all features and tools",
-          "downloadLinks": [
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_2010_ultimate_x86_dvd_509116.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2010/en_visual_studio_2010_ultimate_x86_dvd_509116.iso"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "Microsoft Visual Studio 2010 Ultimate.iso",
-              "url": "https://archive.org/download/MicrosoftVisualStudio2010Ultimate_201801/Microsoft%20Visual%20Studio%202010%20Ultimate.iso"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "collection",
-              "filename": "All editions ISO",
-              "url": "https://archive.org/details/en_visual_studio_2010_ultimate_x86_dvd_509116_202310"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2012",
-      "versionNumber": "11.0",
-      "productName": "Visual Studio 2012",
-      "releaseDate": "2012-09",
-      "editions": [
-        {
-          "edition": "Express",
-          "displayName": "Express for Windows Desktop",
-          "description": "Express edition for desktop application development",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2012_winexp_enu.iso",
-              "url": "http://download.microsoft.com/download/6/e/c/6ec5b3cf-cc0d-448a-9846-8af059de7f72/vs2012_winexp_enu.iso?WT.mc_id=DT-MVP-5003202"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2012_WDX_ENU.iso",
-              "url": "https://download.microsoft.com/download/1/F/5/1F519CC5-0B90-4EA3-8159-33BFB97EF4D9/VS2012_WDX_ENU.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Premium",
-          "displayName": "Visual Studio 2012 Premium",
-          "description": "Premium edition with advanced testing and collaboration tools",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2012_PREM_enu.iso",
-              "url": "http://download.microsoft.com/download/1/3/1/131D8A8C-95D8-41D4-892A-1DF6E3C5DF7D/VS2012_PREM_enu.iso?WT.mc_id=DT-MVP-5003202"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_premium_2012_x86_dvd_2262337.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2012/en_visual_studio_premium_2012_x86_dvd_2262337.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2012 Pro",
-          "description": "Professional edition with full development tools",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2012_PRO_enu.iso",
-              "url": "http://download.microsoft.com/download/D/E/8/DE8E42D8-7598-4F4E-93D4-BB011094E2F9/VS2012_PRO_enu.iso?WT.mc_id=DT-MVP-5003202"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_professional_2012_x86_dvd_2262334.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2012/en_visual_studio_professional_2012_x86_dvd_2262334.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Test Professional",
-          "displayName": "Visual Studio 2012 Test Pro",
-          "description": "Test Professional edition for testing and quality assurance",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2012_testpro_enu.iso",
-              "url": "http://download.microsoft.com/download/7/9/7/7971903e-34e0-460c-9b38-84e8c1d0f3c3/vs2012_testpro_enu.iso?WT.mc_id=DT-MVP-5003202"
-            }
-          ]
-        },
-        {
-          "edition": "Team Foundation Server",
-          "displayName": "Team Foundation Server 2012",
-          "description": "Team Foundation Server for source control and project management",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2012_tfs_enu.iso",
-              "url": "http://download.microsoft.com/download/a/c/f/acfefce0-9bc1-4f8c-80b8-06a0929ed926/vs2012_tfs_enu.iso?WT.mc_id=DT-MVP-5003202"
-            }
-          ]
-        },
-        {
-          "edition": "Ultimate",
-          "displayName": "Visual Studio 2012 Ultimate",
-          "description": "Ultimate edition with all features and tools",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2012_ult_enu.iso",
-              "url": "http://download.microsoft.com/download/d/b/0/db03922c-ff91-4845-b7f2-fc68595ab730/vs2012_ult_enu.iso?WT.mc_id=DT-MVP-5003202"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_ultimate_2012_x86_dvd_2262106.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Update",
-          "displayName": "Visual Studio 2012 Update 5",
-          "description": "Update 5 for Visual Studio 2012",
-          "releaseDate": "2015-08",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2012.5.iso",
-              "url": "https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.iso"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2013",
-      "versionNumber": "12.0",
-      "productName": "Visual Studio 2013",
-      "releaseDate": "2013-10",
-      "editions": [
-        {
-          "edition": "Community",
-          "displayName": "Community with Update 4",
-          "description": "Free community edition with Update 4",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.4_ce_enu.iso",
-              "url": "https://download.microsoft.com/download/7/1/B/71BA74D8-B9A0-4E6C-9159-A8335D54437E/vs2013.4_ce_enu.iso"
-            },
-            {
-              "source": "Microsoft Go Link",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.4_ce_enu.iso",
-              "url": "https://go.microsoft.com/?linkid=9863609&WT.mc_id=DT-MVP-5003202"
-            }
-          ]
-        },
-        {
-          "edition": "Express",
-          "displayName": "Express for Windows Desktop (Update 3)",
-          "description": "Express edition for desktop applications with Update 3",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.3_dskexp_ENU.iso",
-              "url": "https://download.microsoft.com/download/2/5/5/255DCCB6-F364-4ED8-9758-EF0734CA86B8/vs2013.3_dskexp_ENU.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Test Professional",
-          "displayName": "Visual Studio 2013 Test Pro",
-          "description": "Test Professional edition for testing and quality assurance",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2013_RTM_TESTPRO_ENU.iso",
-              "url": "http://download.microsoft.com/download/4/0/6/406E397F-EDBE-4437-B64F-40DF7A92A26E/VS2013_RTM_TESTPRO_ENU.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2013 Pro (Update 5)",
-          "description": "Professional edition with Update 5",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5_pro_enu.iso",
-              "url": "https://download.microsoft.com/download/F/2/E/F2EFF589-F7D7-478E-B3AB-15F412DA7DEB/vs2013.5_pro_enu.iso"
-            },
-            {
-              "source": "Microsoft Go Link",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5_pro_enu.iso",
-              "url": "https://go.microsoft.com/fwlink/?LinkId=532507&type=ISO&clcid=0x409"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_professional_2013_with_update_5_x86_dvd_6815752.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2013/en_visual_studio_professional_2013_with_update_5_x86_dvd_6815752.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2013 Pro RTM",
-          "description": "Professional edition RTM (Release to Manufacturing)",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2013_RTM_PRO_ENU.iso",
-              "url": "https://download.microsoft.com/download/A/F/1/AF128362-A6A8-4DB3-A39A-C348086472CC/VS2013_RTM_PRO_ENU.iso"
-            },
-            {
-              "source": "Microsoft Go Link",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "VS2013_RTM_PRO_ENU.iso",
-              "url": "http://go.microsoft.com/fwlink/?LinkId=320673"
-            }
-          ]
-        },
-        {
-          "edition": "Premium",
-          "displayName": "Visual Studio 2013 Premium (Update 5)",
-          "description": "Premium edition with Update 5",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5_prem_enu.iso",
-              "url": "https://download.microsoft.com/download/6/5/F/65F510B7-D597-4E80-8EFE-86DDCFCC7C43/vs2013.5_prem_enu.iso"
-            },
-            {
-              "source": "Microsoft Go Link",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5_prem_enu.iso",
-              "url": "https://go.microsoft.com/fwlink/?LinkId=532510&type=ISO&clcid=0x409"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_premium_2013_with_update_5_x86_dvd_6815742.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2013/en_visual_studio_premium_2013_with_update_5_x86_dvd_6815742.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Ultimate",
-          "displayName": "Visual Studio 2013 Ultimate (Update 5)",
-          "description": "Ultimate edition with Update 5",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5_ult_enu.iso",
-              "url": "https://download.microsoft.com/download/E/2/A/E2ADF1BE-8FA0-4436-A260-8780444C8355/vs2013.5_ult_enu.iso"
-            },
-            {
-              "source": "Microsoft Go Link",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5_ult_enu.iso",
-              "url": "https://go.microsoft.com/fwlink/?LinkId=532504&type=ISO&clcid=0x409"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_ultimate_2013_with_update_5_x86_dvd_6815896.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2013/en_visual_studio_ultimate_2013_with_update_5_x86_dvd_6815896.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Update",
-          "displayName": "Visual Studio 2013 Update 5",
-          "description": "Update 5 for Visual Studio 2013",
-          "releaseDate": "2015-07",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2013.5.iso",
-              "url": "http://download.microsoft.com/download/A/F/9/AF95E6F8-2E6E-49D0-A48A-8E918D7FD768/vs2013.5.iso"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2015",
-      "versionNumber": "14.0",
-      "productName": "Visual Studio 2015",
-      "releaseDate": "2015-07",
-      "editions": [
-        {
-          "edition": "Community",
-          "displayName": "Visual Studio 2015 Community Update 3",
-          "description": "Free community edition with Update 3",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.3.com_enu.iso",
-              "url": "https://download.microsoft.com/download/b/e/d/bedddfc4-55f4-4748-90a8-ffe38a40e89f/vs2015.3.com_enu.iso"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2015 Pro Update 3",
-          "description": "Professional edition with Update 3",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.3.pro_enu.iso",
-              "url": "https://download.microsoft.com/download/e/b/c/ebc2c43f-3821-4a0b-82b1-d05368af1604/vs2015.3.pro_enu.iso"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_professional_2015_with_update_3_x86_x64_dvd_8923272.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2015/en_visual_studio_professional_2015_with_update_3_x86_x64_dvd_8923272.iso"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.1.pro_enu.iso",
-              "url": "http://download.microsoft.com/download/3/6/A/36A72A3F-711B-4738-B4C6-C668A508D2EE/vs2015.1.pro_enu.iso",
-              "notes": "Update 1"
-            }
-          ]
-        },
-        {
-          "edition": "Enterprise",
-          "displayName": "Visual Studio 2015 Enterprise Update 3",
-          "description": "Enterprise edition with Update 3",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.3.ent_enu.iso",
-              "url": "https://download.microsoft.com/download/8/4/3/843ec655-1b67-46c3-a7a4-10a1159cfa84/vs2015.3.ent_enu.iso"
-            },
-            {
-              "source": "Archive.org",
-              "credibility": "high",
-              "type": "iso",
-              "filename": "en_visual_studio_enterprise_2015_with_update_3_x86_x64_dvd_8923288.iso",
-              "url": "https://archive.org/download/visualstudio-collection/2015/en_visual_studio_enterprise_2015_with_update_3_x86_x64_dvd_8923288.iso"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.1.ent_enu.iso",
-              "url": "http://download.microsoft.com/download/6/C/9/6C95B548-64A9-4637-A7F2-EB2A750C7504/vs2015.1.ent_enu.iso",
-              "notes": "Update 1"
-            }
-          ]
-        },
-        {
-          "edition": "Test Professional",
-          "displayName": "Visual Studio 2015 Test Professional Update 3",
-          "description": "Test Professional edition with Update 3",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.3.vsu.iso",
-              "url": "https://download.microsoft.com/download/c/2/6/c26892d8-6a5d-4871-9d46-629f4d430146/vs2015.3.vsu.iso"
-            },
-            {
-              "source": "Microsoft Go Link",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.3.vsu.iso",
-              "url": "https://go.microsoft.com/fwlink/?LinkId=708984"
-            },
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "iso",
-              "filename": "vs2015.testpro_enu.iso",
-              "url": "http://download.microsoft.com/download/8/5/6/856E021B-39D6-4593-B7BB-2F8D1178EBCB/vs2015.testpro_enu.iso",
-              "notes": "Update 1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2017",
-      "versionNumber": "15.9",
-      "productName": "Visual Studio 2017",
-      "releaseDate": "2017-03",
-      "editions": [
-        {
-          "edition": "Community",
-          "displayName": "Visual Studio 2017 Community (v15.9)",
-          "description": "Free community edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Community.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/90376509-0179-440a-9cb4-6f2e89f36eec/6e4b977a8e8a268cdfb592b688c3cfaf5e180d8bd638b70540de7e14d18622be/vs_Community.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_community.exe",
-              "url": "https://aka.ms/vs/15/release/vs_community.exe"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2017 Pro (v15.9)",
-          "description": "Professional edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Professional.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/90376509-0179-440a-9cb4-6f2e89f36eec/ef1de6c2573e97b1db6e7512d975d6a161c6deab0374b402eb08c776c708730c/vs_Professional.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_professional.exe",
-              "url": "https://aka.ms/vs/15/release/vs_professional.exe"
-            }
-          ]
-        },
-        {
-          "edition": "Enterprise",
-          "displayName": "Visual Studio 2017 Enterprise (v15.9)",
-          "description": "Enterprise edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Enterprise.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/90376509-0179-440a-9cb4-6f2e89f36eec/fd996042328ee4d363c28ac4eda32c1c478f503e6fe21c120001ddf34afb0b07/vs_Enterprise.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_enterprise.exe",
-              "url": "https://aka.ms/vs/15/release/vs_enterprise.exe"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2019",
-      "versionNumber": "16.11",
-      "productName": "Visual Studio 2019",
-      "releaseDate": "2019-04",
-      "editions": [
-        {
-          "edition": "Community",
-          "displayName": "Visual Studio 2019 Community (v16.11)",
-          "description": "Free community edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Community.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/12569159-fcaa-4029-a83e-b7b900c5f9d6/9e0c2ffd45cb53f2596c6d55b66b9157a67f1b05244004c19410c5551ef1e318/vs_Community.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_community.exe",
-              "url": "https://aka.ms/vs/16/release/vs_community.exe"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2019 Pro (v16.11)",
-          "description": "Professional edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Professional.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/12569159-fcaa-4029-a83e-b7b900c5f9d6/3dc8194da5455450e5284c08f632cbfb6286bfb70a23dff16c1f739e0b578aae/vs_Professional.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_professional.exe",
-              "url": "https://aka.ms/vs/16/release/vs_professional.exe"
-            }
-          ]
-        },
-        {
-          "edition": "Enterprise",
-          "displayName": "Visual Studio 2019 Enterprise (v16.11)",
-          "description": "Enterprise edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Enterprise.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/12569159-fcaa-4029-a83e-b7b900c5f9d6/c9c2a125256d1f3bc421f52c39ec5c39b5a30579c5825ffea0842fae356d6caa/vs_Enterprise.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_enterprise.exe",
-              "url": "https://aka.ms/vs/16/release/vs_enterprise.exe"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2022",
-      "versionNumber": "17.x",
-      "productName": "Visual Studio 2022",
-      "releaseDate": "2021-11",
-      "editions": [
-        {
-          "edition": "Community",
-          "displayName": "Visual Studio 2022 Community (v17.x)",
-          "description": "Free community edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Community.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/1d268fee-04e5-4da9-be1e-b8c9d1896c17/546de3dad8f9acf6882dc57d4d90c9d8a2a25d480eef69eb8a29fcb361ba003a/vs_Community.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_community.exe",
-              "url": "https://aka.ms/vs/17/release/vs_community.exe"
-            }
-          ]
-        },
-        {
-          "edition": "Professional",
-          "displayName": "Visual Studio 2022 Pro (v17.x)",
-          "description": "Professional edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Professional.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/a80deb24-6a28-4d30-b99f-13b6e89c9727/491bf1be32ee89d9cc9a379992367e5215b483f56b68865058fefde4f7818cb4/vs_Professional.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_professional.exe",
-              "url": "https://aka.ms/vs/17/release/vs_professional.exe"
-            }
-          ]
-        },
-        {
-          "edition": "Enterprise",
-          "displayName": "Visual Studio 2022 Enterprise (v17.x)",
-          "description": "Enterprise edition",
-          "downloadLinks": [
-            {
-              "source": "Microsoft Direct",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_Enterprise.exe",
-              "url": "https://download.visualstudio.microsoft.com/download/pr/a80deb24-6a28-4d30-b99f-13b6e89c9727/99af51b973aaf5c212a177d91f7fab7eb6f0b41fded2a820f1b375b3eee5e214/vs_Enterprise.exe"
-            },
-            {
-              "source": "Microsoft Aka.ms",
-              "credibility": "highest",
-              "type": "exe",
-              "filename": "vs_enterprise.exe",
-              "url": "https://aka.ms/vs/17/release/vs_enterprise.exe"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
